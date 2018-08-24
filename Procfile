@@ -1,1 +1,1 @@
-worker: python venturerbot.py
+worker: python main.py
