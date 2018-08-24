@@ -1,7 +1,6 @@
-# Copyright 2018 Slowly/slowlygoingon, trader
+# Copyright 2018 Slowly/slowlygoingon
 
 import discord
-import asyncio
 import random
 import datetime
 from discord.ext import commands
@@ -53,7 +52,7 @@ class Moderating():
 class Info():
     @commands.command()
     async def ping(self, ctx):
-        await ctx.send("Did you call me?")
+        await ctx.send("Pong! Did you call me?")
 
     @commands.command(aliases=['git', 'github', 'src'])
     async def source(self, ctx):
