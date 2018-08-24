@@ -16,7 +16,7 @@ bot.remove_command('help')
 
 @bot.event
 async def on_ready():
-    game = discord.Game(name="a ball of yarn | vb!help")
+    game = discord.Game(name="with a ball of yarn | vb!help")
     await bot.change_presence(status=discord.Status.online, activity=game)
     readymessage = "Hi, I'm going out for a hike! It is " + str(timenow) + "\n" + "System version: " + (sys.version)
     uptimedict['timeuptime'] = timenow
